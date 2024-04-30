@@ -41,10 +41,10 @@ if selected_meal != None and selected_day != None:
         time.sleep(0.25)
     
     
-with st.sidebar:
+    st.divider()
     st.write("Some information about the developer...")
-    b = st.link_button(label="Developer's Github", url='https://github.com/adityapradhan202', type='secondary')
-    a = st.link_button(label="Developer's LinkedIn", url='https://www.linkedin.com/in/adipradhan202', type='secondary')
+    b = st.link_button(label="Developer's Github", url='https://github.com/adityapradhan202', type='primary')
+    a = st.link_button(label="Developer's LinkedIn", url='https://www.linkedin.com/in/adipradhan202', type='primary')
 
 
             
