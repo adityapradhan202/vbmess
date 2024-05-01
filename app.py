@@ -5,17 +5,29 @@ from day_time import wday_dict
 from day_time import current_weekday
 from day_time import current_hour
 
-current_meal = ""
-if current_hour > 0 and current_hour < 9:
+# current_meal = ""
+# if current_hour > 0 and current_hour < 9:
+#     current_meal = "Breakfast"
+# elif current_hour < 14:
+#     current_meal = "Lunch"
+# elif current_hour < 18:
+#     current_meal = "Snacks"
+# elif current_hour < 21:
+#     current_meal = "Dinner"
+# elif current_hour > 21:
+#     current_meal = "Breakfast"
+
+
+if current_hour > 0 and current_hour <= 9:
     current_meal = "Breakfast"
-elif current_hour < 14:
+elif current_hour > 9 and current_hour <= 14:
     current_meal = "Lunch"
-elif current_hour < 18:
+elif current_hour > 14 and current_hour <= 18:
     current_meal = "Snacks"
-elif current_hour < 21:
+elif current_hour > 18 and current_hour <= 21:
     current_meal = "Dinner"
-elif current_hour > 21:
-    current_meal = "Breakfast"
+
+
 
 
 st.header("Welcome to VBMESS :pizza:")
