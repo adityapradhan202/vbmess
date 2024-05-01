@@ -24,7 +24,7 @@ elif current_hour > 9 and current_hour <= 14:
     current_meal = "Lunch"
 elif current_hour > 14 and current_hour <= 18:
     current_meal = "Snacks"
-elif current_hour > 18 and current_hour <= 21:
+elif current_hour > 18 and current_hour <= 23:
     current_meal = "Dinner"
 
 
