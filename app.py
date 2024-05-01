@@ -6,15 +6,15 @@ from day_time import current_weekday
 from day_time import current_hour
 
 current_meal = ""
-if current_hour <= 9:
+if current_hour < 8:
     current_meal = "Breakfast"
-elif current_hour <= 14:
+elif current_hour < 13:
     current_meal = "Lunch"
-elif current_hour <= 18:
+elif current_hour < 17:
     current_meal = "Snacks"
-elif current_hour <= 21:
+elif current_hour < 20:
     current_meal = "Dinner"
-elif current_hour > 21:
+elif current_hour > 20:
     current_meal = "Breakfast"
 
 
