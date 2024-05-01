@@ -17,7 +17,7 @@ from day_time import current_hour
 # elif current_hour > 21:
 #     current_meal = "Breakfast"
 
-
+current_meal = ""
 if current_hour > 0 and current_hour <= 9:
     current_meal = "Breakfast"
 elif current_hour > 9 and current_hour <= 14:
