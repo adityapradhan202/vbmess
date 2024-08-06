@@ -6,7 +6,7 @@ import devinfo
 
 st.header("Welcome to VBMESS :pizza:")
 st.caption("Note - Data for the other mess of VITB will be added soon!")
-st.markdown("##### Select the day and the meal type and get the respective food items :smile:")
+st.markdown("##### Select the place/meal-type to see respective food items(with/without price) :smile:")
 
 mess_canteen_type = [
     "Mayuri mess", "Mayuri mess night canteen", "Under belly AB", "None"
